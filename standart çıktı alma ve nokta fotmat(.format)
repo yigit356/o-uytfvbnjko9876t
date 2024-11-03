@@ -1,0 +1,22 @@
+####Standart Çıktı Alma Fonksiyonu
+*Açıklama:Standart C kütüphanesinde bulunan printf() fonksiyonu, değişkenlerin tuttuğu değerleri, onların adreslerini veya bir mesajı ekrana belli bir düzenle (format) standart çıkışa (stdout) yani ekrana yazmak 
+için kullanılan fonksiyondur.
+****
+x=10
+print
+
+****
+\n = yeni satıra geçme komutudur
+\t = TAB kadar boşluk bırakma komudu
+*Örnek
+print(a\nb\nc) = a
+                 b
+                 c
+****
+####.format(nokta format)
+*Açıklama:Metotlar birer fonksiyonu temsil eder.İskeletli yapı oluşturmamızı sağlar.
+*Örnek
+a,b = "yiğit","aptullah"
+print("benim adım: {} arkadasimin adı: {}".format(a,b))
+*Örnek Açıklaması
+Benim adım yiğit, arkadasimin adı aptullah
